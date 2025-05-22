@@ -46,7 +46,6 @@ public class LoginDDTTest {
         // Натискаємо кнопку Login
         driver.findElement(By.xpath("//button[text()='Login']")).click();
 
-        // Зачекаємо кілька секунд на появу повідомлення (можна замінити на WebDriverWait)
         Thread.sleep(1000);
 
         // Перевіряємо повідомлення про помилку
